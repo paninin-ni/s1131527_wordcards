@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace s1131527_wordcards
 {
-    public partial class Form1 : Form
+    public partial class frmWordCards : Form
     {
-        public Form1()
+        public frmWordCards()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAutoPlay_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
