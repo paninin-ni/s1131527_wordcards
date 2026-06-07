@@ -87,71 +87,201 @@
     <None Include="Resources\WordCards_Logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Sound\A\A-list.mp3" />
-    <Content Include="Sound\A\abacus.mp3" />
-    <Content Include="Sound\A\abandon.mp3" />
-    <Content Include="Sound\A\abase.mp3" />
-    <Content Include="Sound\A\abate.mp3" />
-    <Content Include="Sound\A\abbreviate.mp3" />
-    <Content Include="Sound\A\abdicate.mp3" />
-    <Content Include="Sound\A\abdomen.mp3" />
-    <Content Include="Sound\A\abduct.mp3" />
-    <Content Include="Sound\A\aberrant.mp3" />
-    <Content Include="Sound\A\abhor.mp3" />
-    <Content Include="Sound\A\abide.mp3" />
-    <Content Include="Sound\A\abject.mp3" />
-    <Content Include="Sound\A\abnormal.mp3" />
-    <Content Include="Sound\A\aboard.mp3" />
-    <Content Include="Sound\A\abolish.mp3" />
-    <Content Include="Sound\A\aboriginal.mp3" />
-    <Content Include="Sound\A\abort.mp3" />
-    <Content Include="Sound\A\abound.mp3" />
-    <Content Include="Sound\A\abroad.mp3" />
-    <Content Include="Sound\A\abrupt.mp3" />
-    <Content Include="Sound\A\abscond.mp3" />
-    <Content Include="Sound\A\absence.mp3" />
-    <Content Include="Sound\A\absorb.mp3" />
-    <Content Include="Sound\A\abstract.mp3" />
-    <Content Include="Sound\A\absurd.mp3" />
-    <Content Include="Sound\A\abundant.mp3" />
-    <Content Include="Sound\A\abuse.mp3" />
-    <Content Include="Sound\A\abusive.mp3" />
-    <Content Include="Sound\A\abut.mp3" />
-    <Content Include="Sound\A\abysmal.mp3" />
-    <Content Include="Sound\A\abyss.mp3" />
-    <Content Include="Sound\A\academy.mp3" />
-    <Content Include="Sound\A\accede.mp3" />
-    <Content Include="Sound\A\accent.mp3" />
-    <Content Include="Sound\A\access.mp3" />
-    <Content Include="Sound\A\accessible.mp3" />
-    <Content Include="Sound\A\accessory.mp3" />
-    <Content Include="Sound\A\accident.mp3" />
-    <Content Include="Sound\A\acclaim.mp3" />
-    <Content Include="Sound\A\accompany.mp3" />
-    <Content Include="Sound\A\accord.mp3" />
-    <Content Include="Sound\A\accrue.mp3" />
-    <Content Include="Sound\A\accumulate.mp3" />
-    <Content Include="Sound\A\accurate.mp3" />
-    <Content Include="Sound\A\accuse.mp3" />
-    <Content Include="Sound\A\ace.mp3" />
-    <Content Include="Sound\A\acerbic.mp3" />
-    <Content Include="Sound\A\Achilles_heel.mp3" />
-    <Content Include="Sound\A\Achilles_tendon.mp3" />
-    <Content Include="Sound\A\acid.mp3" />
-    <Content Include="Sound\A\acme.mp3" />
-    <Content Include="Sound\A\acne.mp3" />
-    <Content Include="Sound\A\acoustic.mp3" />
-    <Content Include="Sound\A\acoustics.mp3" />
-    <Content Include="Sound\A\acquaint.mp3" />
-    <Content Include="Sound\A\acquaintance.mp3" />
-    <Content Include="Sound\A\acquire.mp3" />
-    <Content Include="Sound\A\acronym.mp3" />
-    <Content Include="Sound\A\actor.mp3" />
-    <Content Include="Sound\A\actress.mp3" />
-    <Content Include="Sound\A\acupuncture.mp3" />
-    <Content Include="Sound\A\acute.mp3" />
-    <Content Include="Sound\A\adamant.mp3" />
-    <Content Include="Sound\A\adapt.mp3" />
+    <Content Include="Sound\A\A-list.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abacus.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abandon.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abase.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abate.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abbreviate.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abdicate.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abdomen.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abduct.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\aberrant.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abhor.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abide.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abject.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abnormal.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\aboard.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abolish.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\aboriginal.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abort.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abound.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abroad.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abrupt.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abscond.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\absence.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\absorb.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abstract.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\absurd.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abundant.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abuse.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abusive.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abut.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abysmal.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\abyss.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\academy.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\accede.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\accent.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\access.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\accessible.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\accessory.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\accident.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acclaim.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\accompany.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\accord.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\accrue.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\accumulate.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\accurate.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\accuse.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\ace.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acerbic.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\Achilles_heel.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\Achilles_tendon.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acid.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acme.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acne.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acoustic.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acoustics.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acquaint.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acquaintance.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acquire.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acronym.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\actor.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\actress.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acupuncture.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\acute.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\adamant.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A\adapt.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Sound\A\addict.mp3" />
     <Content Include="Sound\A\address.mp3" />
     <Content Include="Sound\A\adept.mp3" />

@@ -49,6 +49,7 @@
             // timPlayer
             // 
             this.timPlayer.Interval = 2000;
+            this.timPlayer.Tick += new System.EventHandler(this.timPlayer_Tick);
             // 
             // sssWord
             // 
@@ -79,6 +80,7 @@
             this.lstWordList.Name = "lstWordList";
             this.lstWordList.Size = new System.Drawing.Size(319, 619);
             this.lstWordList.TabIndex = 1;
+            this.lstWordList.Click += new System.EventHandler(this.lstWordList_Click);
             // 
             // palMain
             // 
@@ -190,6 +192,8 @@
             this.KeyPreview = true;
             this.Name = "frmWordCards";
             this.Text = "單字卡";
+            this.Load += new System.EventHandler(this.frmWordCards_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.frmWordCards_KeyPress);
             this.sssWord.ResumeLayout(false);
             this.sssWord.PerformLayout();
             this.palMain.ResumeLayout(false);
