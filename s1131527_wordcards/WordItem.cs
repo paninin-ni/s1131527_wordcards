@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace s1131527_wordcards
 {
-    internal class WordItem
+    public class WordItem
     {
         public string Word { get; set; }
         public string Phonogram { get; set; }
@@ -27,6 +27,14 @@ namespace s1131527_wordcards
         public override string ToString()
         {
             return Word;
+        }
+        public string ToLineString()
+        {
+            // 將 Explain 屬性中的換行符號替換為\t，以便在字串中顯示。
+            string strExplain = Explain.Replace(Environment.NewLine,
+            "\t");
+            // 將 WordItem 物件轉換為字串
+            return $"{Word}\t{Phonogram}\t{SoundPath}\t{strExplain}";
         }
     }
 }

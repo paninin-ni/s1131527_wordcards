@@ -193,5 +193,22 @@ namespace s1131527_wordcards
                     break;
             }
         }
+
+        private void lstWordList_DoubleClick(object sender, EventArgs e)
+        {
+            lstWordList.Focus();
+            // 目前選取的索引
+            int idx = lstWordList.SelectedIndex;
+            frmEditWord edit = new frmEditWord(_WordList[idx]);
+            DialogResult result = edit.ShowDialog(this);
+            // 如果使用者按下 儲存 按鈕
+            if (result == DialogResult.Yes)
+            {
+                // 顯示並播放目前選取的單字
+                PlaySelectedWord();
+            }
+            // 儲存單字
+            _WordList.SaveToFile(strWordFile);
+        }
     }
 }
